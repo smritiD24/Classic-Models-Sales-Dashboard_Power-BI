@@ -1,7 +1,7 @@
 # 📊 Classic Models Sales Dashboard — Power BI
 
 > A sales performance dashboard built on the Classic Models dataset, covering orders, products, customers, and payments across 2003–2005.
-
+![DB](https://github.com/smritiD24/Classic-Models-Sales-Dashboard_Power-BI/blob/main/Dashboard_Classic%20Models.png)
 ---
 
 ## 📁 Repository Structure
@@ -25,7 +25,7 @@ classic-models-powerbi/
 ├── README.md
 └── data_model.png                 # Screenshot of the star schema / data model in Power BI
 ```
-![DB]()
+
 ---
 
 ## 🗃️ Dataset Overview
