@@ -161,18 +161,7 @@ The Classic Models dataset simulates a wholesale distributor of die-cast car rep
 
 ## 📚 Reference
 
-Dashboard layout and visual concepts inspired by a guided Power BI tutorial on YouTube. Data analysis, insights, and visual customization (color palette, chart arrangement, titles) performed independently.
+Dashboard layout and visual concepts inspired by a guided Power BI tutorial from WsCube Tech, Youtube.
 
----
-
-## 🚀 What to Add to Make This Repository Stand Out
-
-- [ ] `data_model.png` — screenshot of your Power BI data model (star schema showing table relationships)
-- [ ] `dax_measures.md` — document your custom DAX formulas (Profit Margin %, YoY Growth, etc.)
-- [ ] `data_cleaning_notes.md` — note any transformations done in Power Query
-- [ ] A LinkedIn post screenshot if you shared this project publicly
-- [ ] `insights/key_findings.md` — paste the business insights section above as a separate file
-
----
 
 *Dataset: Classic Models (open-source sample database) | Tool: Power BI Desktop*
