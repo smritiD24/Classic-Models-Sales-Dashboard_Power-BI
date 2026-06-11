@@ -4,30 +4,6 @@
 ![DB](https://github.com/smritiD24/Classic-Models-Sales-Dashboard_Power-BI/blob/main/Dashboard_Classic%20Models.png)
 ---
 
-## 📁 Repository Structure
-
-```
-classic-models-powerbi/
-│
-├── dashboard_screenshot.png       # Dashboard preview image
-├── ClassicModels_Dashboard.pbix   # Power BI file (main deliverable)
-├── data/
-│   ├── customers.csv
-│   ├── employees.csv
-│   ├── offices.csv
-│   ├── order_details.csv
-│   ├── orders.csv
-│   ├── payments.csv
-│   ├── productlines.csv
-│   └── products.csv
-├── insights/
-│   └── key_findings.md            # Written business insights (this section below)
-├── README.md
-└── data_model.png                 # Screenshot of the star schema / data model in Power BI
-```
-
----
-
 ## 🗃️ Dataset Overview
 
 The Classic Models dataset simulates a wholesale distributor of die-cast car replicas. It contains 8 relational tables:
@@ -45,7 +21,7 @@ The Classic Models dataset simulates a wholesale distributor of die-cast car rep
 
 ---
 
-## 📌 Dashboard Visuals
+## Dashboard Visuals
 
 | Visual | Description |
 |---|---|
@@ -60,14 +36,14 @@ The Classic Models dataset simulates a wholesale distributor of die-cast car rep
 
 ---
 
-## 🔍 Key Business Insights
+## Key Business Insights
 
-### 💰 Revenue & Profitability
+### Revenue & Profitability
 
 - **Total revenue across all years: $9.6M** with a healthy overall profit margin of **39.84%**, generating **$3.83M in absolute profit**.
 - Profit margin consistency across product lines suggests disciplined pricing relative to buy price — the business is not discounting heavily to drive volume.
 
-### 📅 Year-over-Year Trends
+### Year-over-Year Trends
 
 | Year | Revenue | Orders | Units Sold | Avg Order Value |
 |---|---|---|---|---|
@@ -79,7 +55,7 @@ The Classic Models dataset simulates a wholesale distributor of die-cast car rep
 - **2005 appears to decline sharply (-60.8%)**, but this is misleading — the dataset only covers orders up to mid-2005, so 2005 is an incomplete year. This is important context: the business was likely still on a growth trajectory.
 - Average order value remained stable at ~$29K across 2003–2004, suggesting the growth was driven by **customer acquisition and repeat orders**, not price inflation.
 
-### 🏎️ Product Line Performance
+### Product Line Performance
 
 | Product Line | Sales | Profit | Sales Share |
 |---|---|---|---|
@@ -96,7 +72,7 @@ The Classic Models dataset simulates a wholesale distributor of die-cast car rep
 - **Trains is the weakest category** — $188K in sales, $65K profit, and only 2% of revenue. This line may warrant a discontinuation review or a focused promotional campaign.
 - Motorcycles, Trucks, and Planes are mid-tier lines with fairly similar sales volumes, suggesting an opportunity to differentiate one of them through targeted marketing.
 
-### 🏆 Top & Bottom Products
+### Top & Bottom Products
 
 **Top 5 by Revenue:**
 1. 1992 Ferrari 360 Spider red — $276,840
@@ -116,14 +92,14 @@ The Classic Models dataset simulates a wholesale distributor of die-cast car rep
 - The bottom 5 are all in the $28K–$33K range, suggesting consistently low demand rather than outlier failures.
 - The gap between top ($276K) and bottom ($28K) products is nearly **10x** — indicating a long-tail product distribution. A 80/20 analysis would likely reveal that ~20% of products drive 80% of revenue.
 
-### 🌍 Customer Geography
+###Customer Geography
 
 - **USA leads with 36 customers** — nearly 30% of all customer accounts.
 - **Germany (13) and France (12)** are the top European markets.
 - **Australia (5) and UK (5)** are smaller but present.
 - Opportunity: Europe collectively (Germany + France + UK + others) likely rivals or surpasses the US in customer count — a regional breakdown of revenue by territory would be a valuable next analysis.
 
-### 📆 Monthly Seasonality (2004)
+###Monthly Seasonality (2004)
 
 | Month | Sales ($K) |
 |---|---|
@@ -144,14 +120,14 @@ The Classic Models dataset simulates a wholesale distributor of die-cast car rep
 - **Q4 (Oct–Dec) accounted for roughly $1.91M**, or about 42% of 2004 annual revenue. The business is **highly seasonal and Q4-dependent**.
 - March–April is the softest period, dipping to $188K–$218K. This suggests a potential opportunity for off-season promotions.
 
-### 💳 Payments & Credit
+###Payments & Credit
 
 - 273 payments on record from 122 customers — meaning not every customer has paid (some orders may be pending or on credit terms).
 - The dataset includes a `creditLimit` column per customer — this could be leveraged to identify high-credit-limit customers who are under-purchasing relative to their limit (a sales outreach opportunity).
 
 ---
 
-## 🛠️ Tools Used
+##Tools Used
 
 - **Power BI Desktop** — data modeling, DAX measures, visualizations
 - **CSV files** — raw data source (no SQL server required)
@@ -159,7 +135,7 @@ The Classic Models dataset simulates a wholesale distributor of die-cast car rep
 
 ---
 
-## 📚 Reference
+##Reference
 
 Dashboard layout and visual concepts inspired by a guided Power BI tutorial from WsCube Tech, Youtube.
 
