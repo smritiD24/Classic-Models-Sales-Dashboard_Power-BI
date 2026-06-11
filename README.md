@@ -25,7 +25,7 @@ classic-models-powerbi/
 ├── README.md
 └── data_model.png                 # Screenshot of the star schema / data model in Power BI
 ```
-
+![DB]()
 ---
 
 ## 🗃️ Dataset Overview
